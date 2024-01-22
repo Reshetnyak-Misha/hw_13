@@ -1,0 +1,327 @@
+@import "global";
+@import "fonts";
+
+.main__background {
+  background: #0B1D26;
+
+  &-image {
+    background: url("../images/BG Hero.png") no-repeat,
+    url("../images/BG Content.png") 50% 37% no-repeat,
+    url("../images/VG.png") 50% 781px no-repeat,
+    url("../images/MG.png") 50% 475px no-repeat,
+    url("../images/HG.png") no-repeat;
+
+  }
+}
+
+
+.button-more {
+  display: flex;
+  gap: 16px;
+  color: #FBD784;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.global-tittle {
+  color: #FFF;
+  font-family: "Chronicle Display", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.global-content {
+  color: #FFF;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.global-entry {
+  display: flex;
+  gap: 24px;
+  color: #FBD784;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 80px 0 80px;
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__sign {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__logo {
+    color: #FFF;
+    font-family: "Chronicle Display", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+  }
+}
+
+.mount {
+  display: flex;
+  justify-content: space-between;
+  margin: 190px 80px 0 50px;
+
+  &__follow {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    margin-top: 110px;
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    &-transform {
+      transform: rotate(90deg);
+    }
+
+    &-image {
+      display: flex;
+      width: 24px;
+      height: 24px;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+
+  &__tittle {
+    padding: 32px 0 32px 0;
+    color: #FFF;
+    font-family: "Chronicle Display", sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    text-transform: capitalize;
+  }
+
+  &__average-content {
+    display: flex;
+    gap: 32px;
+    color: #FBD784;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+
+  &__average-content-scroll {
+    display: flex;
+    gap: 16px;
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__switch {
+    display: flex;
+    gap: 32px;
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: flex-end;
+      color: #FFF;
+      text-align: right;
+      font-family: "Gilroy", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+.wrapper {
+  margin: 860px 229px 200px 229px;
+}
+
+.first {
+  display: flex;
+  margin-bottom: 200px;
+  position: relative;
+
+  &__number-decor {
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 63%;
+
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin: 141px 114px 140px 150px;
+
+    &-content {
+      color: #FFF;
+      font-family: "Gilroy", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+    }
+
+
+  }
+}
+
+
+.second {
+  display: flex;
+  margin-bottom: 200px;
+  position: relative;
+
+  &__number-decor {
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    right: 35%;
+    top: 5%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin: 141px 0 140px 264px;
+  }
+}
+
+.third {
+  display: flex;
+  position: relative;
+
+  &__number-decor {
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    top: 5%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin: 141px 114px 140px 150px;
+  }
+}
+
+.footer {
+  display: flex;
+  margin: 0 229px 120px 229px;
+  gap: 542.94px;
+
+  &__blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
+  &__signature {
+    color: #FFF;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 0.5;
+  }
+
+  &__list {
+    display: flex;
+    gap: 212px;
+
+    li {
+      color: #FFF;
+      font-family: "Gilroy", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+      margin-bottom: 16px;
+      width: 192px;
+    }
+
+    li:nth-child(1) {
+      color: #FBD784;
+      font-family: "Gilroy", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+
+
